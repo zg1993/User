@@ -1,0 +1,19 @@
+[
+    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["ctrl+f5"], "command": "build" },
+    { "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+    { "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "keys": ["alt+b"], "command": "move", "args": {"by": "word_ends", "forward": false} },
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["ctrl+alt+n"], "command": "new_file" },
+    { "keys": ["ctrl+i"], "command": "save"},
+    { "keys": ["ctrl+k", "ctrl+n"], "command": "next_view"},
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "prev_view"},
+    { "keys": ["ctrl+k", "ctrl+f"], "command": "move", "args": {"by": "pages", "forward": true} },
+
+]

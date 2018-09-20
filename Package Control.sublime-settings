@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Anaconda",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"Emmet",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeGit"
+	]
+}
